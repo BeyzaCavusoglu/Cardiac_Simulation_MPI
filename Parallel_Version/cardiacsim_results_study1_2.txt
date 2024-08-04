@@ -1,0 +1,306 @@
+.....STUDY 1.....
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                72
+On-line CPU(s) list:   0-71
+Thread(s) per core:    2
+Core(s) per socket:    18
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 79
+Model name:            Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+Stepping:              1
+CPU MHz:               1200.000
+CPU max MHz:           2100.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              4194.93
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              46080K
+NUMA node0 CPU(s):     0-17,36-53
+NUMA node1 CPU(s):     18-35,54-71
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm rdt_a rdseed adx smap xsaveopt cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts
+Serial version...
+BURASI SERI VERSIYON
+Grid Size       : 256
+Duration of Sim : 100
+Time step dt    : 0.0403788
+Process geometry: 1 x 1
+
+Number of Iterations        : 2477
+Elapsed Time (sec)          : 0.911052
+Sustained Gflops Rate       : 4.98908
+Sustained Bandwidth (GB/sec): 5.70181
+
+Max: 0.979723 L2norm: 0.500622
+..................................................
+Parallel version with 1 process
+
+Number of Iterations        : 1184
+Elapsed Time (sec)          : 0.0377071
+Sustained Gflops Rate       : 3.6012
+Sustained Bandwidth (GB/sec): 4.11565
+
+Max: 1 L2norm: 0.707107rank:0
+..................................................
+Parallel version with 2 processes
+
+
+Number of Iterations        : 1184
+Elapsed Time (sec)          : 0.043756
+Sustained Gflops Rate       : 3.10336
+Sustained Bandwidth (GB/sec): 3.5467
+
+Max: 1 L2norm: 0.707107rank:0
+..................................................
+Parallel version with 4 processes
+
+
+
+
+Number of Iterations        : 1184
+Elapsed Time (sec)          : 0.171557
+Sustained Gflops Rate       : 0.791518
+Sustained Bandwidth (GB/sec): 0.904592
+
+Max: 1 L2norm: 0.707107rank:0
+..................................................
+Parallel version with 8 processes
+
+
+
+
+
+
+
+
+Number of Iterations        : 1184
+Elapsed Time (sec)          : 0.177101
+Sustained Gflops Rate       : 0.766741
+Sustained Bandwidth (GB/sec): 0.876276
+
+Max: 1 L2norm: 0.707107rank:0
+..................................................
+Parallel version with 16 processes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Number of Iterations        : 1184
+Elapsed Time (sec)          : 0.308798
+Sustained Gflops Rate       : 0.439739
+Sustained Bandwidth (GB/sec): 0.502559
+
+Max: 1 L2norm: 0.707107rank:0
+.....STUDY 2.....
+Parallel 2D version with 1 process
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 1 x 1
+
+Number of Iterations        : 1184
+Elapsed Time (sec)          : 0.0391171
+Sustained Gflops Rate       : 3.47139
+Sustained Bandwidth (GB/sec): 3.9673
+
+Max: 1 L2norm: 0.707107
+..................................................
+Parallel 2D version with 2 processes
+Grid Size       : 64
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 2 x 1
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 2 x 1
+
+
+Number of Iterations        : 1184
+Elapsed Time (sec)          : 0.0513399
+Sustained Gflops Rate       : 2.64493
+Sustained Bandwidth (GB/sec): 3.02278
+
+Max: 1 L2norm: 0.707107
+..................................................
+Parallel 2D version with 4 processes
+Grid Size       : 64
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 4 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 4 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 4 x 1
+
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 4 x 1
+
+Number of Iterations        : 1184
+Elapsed Time (sec)          : 0.0871921
+Sustained Gflops Rate       : 1.55737
+Sustained Bandwidth (GB/sec): 1.77986
+
+Max: 1 L2norm: 0.707107
+..................................................
+Parallel 2D version with 8 processes
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 8 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 8 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 8 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 8 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 8 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 8 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 8 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 8 x 1
+
+Number of Iterations        : 1184
+Elapsed Time (sec)          : 0.133032
+Sustained Gflops Rate       : 1.02074
+Sustained Bandwidth (GB/sec): 1.16656
+
+Max: 1 L2norm: 0.707107
+..................................................
+Parallel 2D version with 16 processes
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Grid Size       : 64
+Duration of Sim : 100
+Time step dt    : 0.0845256
+Process geometry: 16 x 1
+
+Number of Iterations        : 1184
+Elapsed Time (sec)          : 0.260466
+Sustained Gflops Rate       : 0.521337
+Sustained Bandwidth (GB/sec): 0.595814
+
+Max: 1 L2norm: 0.707107
